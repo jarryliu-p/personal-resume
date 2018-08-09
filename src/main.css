@@ -1,0 +1,68 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+html {
+    background-color: #00c091;
+}
+body {
+    line-height: 1.5;
+    font-size: 14px;
+    font-family: "microsoft yahei";
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td, img, button {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.container {
+    width: 820px;
+    height: auto;
+    background: transparent;
+    margin: 74px auto 20px auto;
+    position: relative;
+}
+.base {
+    min-height: 1160px;
+    height: 1160px;
+    background: #fff;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
+}
+.baseLeft {
+    float: left;
+    width: 270px;
+    height: inherit;
+    padding: 20px 16px 40px 30px;
+    background: #254665;
+    color: #fff;
+}
+.baseRight {
+    float: right;
+    width: 550px;
+    height: inherit;
+    padding: 10px 30px 40px 30px;
+    background: #fff;
+}
+.clearfix {
+    display: block;
+    zoom: 1;
+}
+.headimg {
+    width: 120px;
+    height: 150px;
+}
+.head-on {
+    position: relative;
+    width: 128px;
+    height: 158px;
+    margin: 0 auto;
+    border: 4px solid #e5e5e5;
+    background: #e5e5e5;
+    overflow: hidden;
+    cursor: pointer;
+}

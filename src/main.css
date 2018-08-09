@@ -116,7 +116,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
     float: left;
     text-align: center;
 }
-.hobby-item a.wbdfont {
+.hobby-item span.fa {
     display: block;
     width: 60px;
     height: 60px;

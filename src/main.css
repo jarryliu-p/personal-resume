@@ -72,7 +72,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
 .baseInfo ,.skill ,.hobby{
     padding-top: 30px;
 }
-.info-title span {
+.info-title .vertical-align-title {
     font-size: 18px;
 }
 .info-item ,.info-title{
@@ -157,4 +157,37 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
 }
 .tag {
     margin: 5px 10px;
+}
+.icon {
+    display: inline-block;
+    width: 20px;
+    margin-right: 5px;
+    text-align: center;
+}
+.circle-icon-on {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background: #fff;
+    color: #254665;
+    text-align: center;
+    vertical-align: super;
+    font-size: 19px;
+}
+.circle-icon-off {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background: #254665;
+    color: #fff;
+    text-align: center;
+    vertical-align: super;
+    font-size: 19px;
+}
+.vertical-align-title{
+    vertical-align: super;
 }

@@ -24,7 +24,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
     width: 820px;
     height: auto;
     background: transparent;
-    margin: 74px auto 20px auto;
+    margin: 40px auto;
     position: relative;
 }
 .base {
@@ -65,4 +65,66 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
     background: #e5e5e5;
     overflow: hidden;
     cursor: pointer;
+}
+.baseInfo ,.skill ,.hobby{
+    padding-top: 30px;
+}
+.info-title span {
+    font-size: 18px;
+}
+.info-item ,.info-title{
+    margin-bottom: 10px;
+}
+.skill-slider {
+    display: block;
+    width: 220px;
+}
+.skill-slider s {
+    width: 144px;
+    display: inline-block;
+    height: 10px;
+    background: #f4f4f4;
+}
+.skill-slider[data_level="average"] i {
+    width:25%;
+}
+.skill-slider[data_level="good"] i {
+    width:50%;
+}
+.skill-slider[data_level="advanced"] i {
+    width:80%;
+}
+.skill-slider[data_level="expert"] i {
+    width:90%;
+}
+.skill-slider s i {
+    height: 100%;
+    background: #4487c6;
+    display: block;
+}
+.skill-slider span {
+    width: 66px;
+    margin-left: 10px;
+    text-align: left;
+}
+.hobby-item {
+    margin: 10px 30px 0 10px;
+    width: 70px;
+    float: left;
+    text-align: center;
+}
+.hobby-item a.wbdfont {
+    display: block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 4px;
+    font-size: 28px;
+    text-align: center;
+}
+.hobby-title {
+    width: 60px;
+    display: block;
+    line-height: 26px;
 }

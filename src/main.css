@@ -36,6 +36,11 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
 .con {
     padding: 30px 0 0 0;
 }
+.content {
+    color: #666;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 .baseLeft {
     float: left;
     width: 270px;

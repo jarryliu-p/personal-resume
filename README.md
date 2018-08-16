@@ -1,2 +1,2 @@
-# jarryliu-p.github.io
-Resume Template
+# Resume Template
+Rename project as jarryliu-p.github.io for useing
